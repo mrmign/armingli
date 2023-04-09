@@ -9,7 +9,7 @@ I like to play badminton, ping pong, and play both well. Besides, I'm also good 
 
 <br>
 
-## 📕 Latest Blog Posts:
+### 📕 Latest Blog Posts:
 
 <!-- BLOG-LIST-START -->
 <!-- BLOG-LIST-END -->
