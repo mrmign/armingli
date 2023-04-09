@@ -1,4 +1,4 @@
-name: Readme Update Blog
+name: Update Readme Latest Blog
 on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour
@@ -15,5 +15,5 @@ jobs:
         uses: armingli/readme-update-actions@v1.0.0
         with:
           RSS_LIST: "https://blog.metaprogramming.space/rss.xml"
-          COMMIT_USER: "{{ vars.user_name }}"
-          COMMIT_EMAIL: "{{ vars.email }} "
+          COMMIT_USER: "${{ vars.user_name }}"
+          COMMIT_EMAIL: "${{ vars.email }} "
