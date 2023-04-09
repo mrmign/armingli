@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+I'm a Senior Software Engineer, worked for T. I like coding, reading, and have interest in a variaty of programming languages.
+I like to play badminton, ping pong, and play both well. Besides, I'm also good at cooking.
+
 * Used to be a iOS Developer, but now I'm a Backend Developer, mainly using Go, MySQL, K8S.
 * Currently learning C++, Rust, Blockchain.
 * I record my thought on Programming & Tech in my [blog](https://blog.metaprogramming.space).
