@@ -9,10 +9,16 @@ I like to play badminton, ping pong, and play both well. Besides, I'm also good 
 
 <br>
 
+## 📕 Latest Blog Posts:
+
+<!-- BLOG-LIST-START -->
+<!-- BLOG-LIST-END -->
+
+
 ![imskr's GitHub stats](https://github-readme-stats.vercel.app/api?username=armingli&theme=tokyonight&show_icons=true)
 
 
-<p  align="center">
+<p  align="left">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=armingli.armingli" alt="visitor badge"/>       
 </p>
 
