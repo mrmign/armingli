@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Update readme with rss Actions
-        uses: armingli/readme-update-actions@v1.0.0
+        uses: armingli/readme-update-actions@v1.0.2
         with:
           RSS_LIST: "https://blog.metaprogramming.space/rss.xml"
           COMMIT_USER: "${{ vars.user_name }}"
