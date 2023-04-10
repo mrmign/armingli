@@ -1,19 +1,16 @@
-name: Update Readme Latest Blog
+name: Latest blog post workflow
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+  schedule:
+    # Runs every 2 hour
+    - cron: "0 */2 * * *"
 
 jobs:
   update-readme-with-blog:
-    name: Update latest blogs
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Update readme with rss Actions
-        uses: armingli/readme-update-actions@v1.0.2
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          RSS_LIST: "https://blog.metaprogramming.space/rss.xml"
-          COMMIT_USER: "${{ vars.user_name }}"
-          COMMIT_EMAIL: "${{ vars.email }} "
+          max_post_count: 10
+          feed_list: "https://blog.metaprogramming.space/rss.xml"
